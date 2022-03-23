@@ -15,6 +15,7 @@ public class MPConfig {
         System.out.println("hello!!!!!!  ysj");
         System.out.println("hello!!!!!!  ysj");
         System.out.println("hello!!!!!!  ysj");
+        System.out.println("hto fix commit");
         MybatisPlusInterceptor mybatisPlusInterceptor = new MybatisPlusInterceptor();
         mybatisPlusInterceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return mybatisPlusInterceptor;
