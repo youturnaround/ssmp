@@ -16,6 +16,7 @@ public class MPConfig {
         System.out.println("hto fix commit");
         System.out.println("push test");
         System.out.println("pull test");
+        System.out.println("github更新了");
         MybatisPlusInterceptor mybatisPlusInterceptor = new MybatisPlusInterceptor();
         mybatisPlusInterceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return mybatisPlusInterceptor;
