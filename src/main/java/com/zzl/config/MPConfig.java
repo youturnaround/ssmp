@@ -11,6 +11,7 @@ public class MPConfig {
     @Bean
     public MybatisPlusInterceptor mybatisPlusInterceptor() {
         System.out.println("hahahaha");
+        System.out.println("hello git3");
         MybatisPlusInterceptor mybatisPlusInterceptor = new MybatisPlusInterceptor();
         mybatisPlusInterceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return mybatisPlusInterceptor;
